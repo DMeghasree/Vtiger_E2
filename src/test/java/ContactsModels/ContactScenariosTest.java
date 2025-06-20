@@ -15,7 +15,8 @@ import PomUtilities.CreateNewOrgPomPage;
 import PomUtilities.HomePomPage;
 import PomUtilities.OrgInfoPomPage;
 import PomUtilities.OrganizationPomPage;
-//@Listeners(ListenersUtility.Listeners.class)
+//changes done to check pull
+@Listeners(ListenersUtility.Listeners.class)
 public class ContactScenariosTest extends BaseClass{
 	//@Parameters("browser")
 	//@Test(groups="smoke")
