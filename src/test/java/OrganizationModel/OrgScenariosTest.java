@@ -47,7 +47,8 @@ public class OrgScenariosTest {
 			// String orgname = wb.getSheet("organization").getRow(1).getCell(2).toString();
 			ExcelFileUtility ex_util = new ExcelFileUtility();
 			String orgname = ex_util.fetchDataFromExcelFile("organization", 1, 2) + randomint;
-
+			
+//create organiztion Test
 			// Launch the browser
 			WebDriverUtility wutil = new WebDriverUtility();
 //			WebDriver driver = null;
